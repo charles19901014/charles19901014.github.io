@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Chen·ge Contact me</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="./css/Cstyle.css" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		$(document).ready(function(){
+				$("#page_title").fadeIn(1000,function(){
+				$("#basic").fadeIn(1000);
+				$("#media").fadeIn(1000);
+			});
+		});
+	</script>
+
+</head>
+<body id="body_bg" class="bg" style="background-image: linear-gradient( 128deg, rgba(135,0,51,1), rgba(0,200,151,1));">
+	<div id="page_title" class="title">CONTACT ME</div>
+	<div id="back_home" class="back_home"><a href="./index.html">-HOME-</a></div>
+
+	<div id="basic" class="contact_contener" style="left:20%">
+		<h3>Basic contact</h3>
+		<div style="width:100%"><img src="./images/line.png" width="100%" height="5px"></div>
+		<p>Tel: +86 13916675224</p>
+		<p>E-mail: chenguangxi1990@qq.com</p>
+		<p>QQ: 532589449</p>
+		<p>Addr: ROOM 503, #4 Building, XIANHEMINYUAN, Nanjing, Jiangsu, PRC</p>
+	</div>
+
+	<div id="media" class="contact_contener" style="left:55%">
+		<h3>Social media</h3>
+		<div style="width:100%"><img src="./images/line.png" width="100%" height="5px"></div>
+		<div style="width:33%; float:left"><a target="_blank" href="https://www.facebook.com/profile.php?id=100001097045607"><img class="social" src="./images/facebook-logo.png"></a></div>
+		<div style="width:33%; float:left"><a target="_blank" href="https://twitter.com/charles_chen_"><img class="social" src="./images/twitter-logo-silhouette.png"></a></div>
+		<div style="width:33%; float:left"><img class="social" id="wechat_link" src="./images/wechat-logo.png" style="cursor:pointer;"></div>
+	</div>
+
+	<div id="wechat_QR" class="wechat">
+		<img src="./images/QR.png" style="position:absolute; margin:auto; top:0; left:0; bottom:0;right:0;">
+	</div>
+
+	<div id="footer" class="footer">-- Last update: 2017.4 --</div>
+
+	<script>
+		$( "#wechat_link" ).click(function() {
+			$("#wechat_QR").fadeIn(2000);
+			// console.log("click");
+		});
+		$("#wechat_QR").click(function(){
+			$(this).fadeOut(1000);
+
+		});
+	</script>
+
+
+</body>
+</html>

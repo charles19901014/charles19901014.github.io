@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Chen·ge Works</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="./css/Cstyle.css" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#page_title").fadeIn(1000,function(){
+				$("#nav").fadeIn(500,function(){
+					$("#content").fadeIn(500);
+				})
+			});
+		});
+	</script>
+
+</head>
+<body id="body_bg" class="bg" style="background-image: linear-gradient( 128deg, rgba(195,105,255,1), rgba(15,15,15,1));">
+	<div id="page_title" class="title">WORKS</div>
+	<div id="back_home" class="back_home" ><a href="./index.html">-HOME-</a></div>
+
+	<div id="nav" class="work_nav">
+		<ul>
+			<li><a href="work_hf.html">Red Town<br/>红坊</a></li>
+			<li><a href="work_ssrs.html">Goodness·Engergy·Water<br/>上善若水</a></li>
+			<li><a href="work_yqnr.html">Peaceful Pneuma<br/>以气宁人</a></li>
+			<li style="background-color:rgba(255,255,255,0.1);"><a href="work_qf.html">The Air Around You<br/>气·分</a></li>
+			<li><a href="work_cyfxz.html">Cooking With Strangers<br/>厨艺分享站</a></li>
+			<li><a href="work_syq.html">Eating Instrument<br/>乐食器</a></li>
+			<li><a href="work_hm.html">Smart Sleep<br/>慧眠</a></li>
+			<li><a href="work_xd.html">Heed<br/>息德</a></li>
+			<li><a href="work_hnfdxq.html">Pless<br/>汉能发电象棋</a></li>
+			<li><a href="work_xq.html">Xianqing<br/>咸情</a></li>
+		</ul>
+	</div>
+
+	<div id="content" class="work_contener">
+		<h3>The Air Around You 气·分</h3>
+		<div class="work_logo"><img src="./images/qf/qf_logo.jpg"></div>
+		<p>Basic Info<br/>
+			Type: Interactive Installation<br/>
+			Tool: AI / PS / Processing / Arduino<br/>
+			Team member: 2<br/>
+			Work in charge: Visual(part) / Software and Hardware Programming<br/>
+			<br/>
+			Requirement & Purpose<br/>
+			The installation focused on the air pollution and smog in recent China. By grabbing the air quality index from the Internet and creating local XML data sheet, the computer provided a graphic interface and sent the data to the Arduino to control three RGB LEDs which phusically represented the air condition.<br/>
+			The demo used a laptop while the next step will be using a Raspberry Pi to fully realize portability.
+		</p>
+		<br/>
+		<img src="./images/qf/setting.jpg" style="margin-bottom:2px">
+		<p class="note">Installation setting</p>
+		<br/>
+		<img src="./images/qf/model.jpg" style="margin-bottom:2px">
+		<p class="note">Interactive model</p>
+		<br/>
+		<img src="./images/qf/led.png" style="margin-bottom:2px">
+		<p class="note">LED light effect</p>
+		<br/>
+		<img src="./images/qf/interface.jpg" style="margin-bottom:2px">
+		<p class="note">Interface of visulization on laptop screen</p>
+		<br/>
+		
+
+	</div>
+
+	<div id="footer" class="footer">-- Last update: 2017.4 --</div>
+
+</body>
+</html>

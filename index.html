@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title> PORTFOLIO Chen·ge</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="./css/Cstyle.css" />
+
+<!-- p5.js canvas as background -->
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <style>  body {padding: 0; margin: 0;} canvas {vertical-align: top; position: fixed; top: 0; left: 0; z-index: -1} </style>
+
+<!-- page load animation by jquery -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>		
+ 	$( document ).ready(function() {
+    $("#index_title").fadeIn(3000,function(){
+    	$("#about_me").fadeIn(500,function(){
+    		$("#works").fadeIn(500,function(){
+    			$("#contact_me").fadeIn(500);
+    			});
+    		});
+   		 });
+	 });
+	</script>
+
+</head>
+
+
+<body >
+	<div id="sketch_holder" style=""></div>
+
+	<div  class="index_title" >
+	<img id="index_title" src="./images/index_title.png" style="display:none">
+	</div>	
+	<br/>
+	<div style="position:absolute; top:50%; right:20%">
+		<div id="about_me" class="index_contener" >		
+		<a href="./about_me.html"><img class="index_icon" src="./images/user-shape.png" >ABOUT ME</a>
+		</div>
+		
+		<div id="works" class="index_contener" >		
+		<a href="./work_hf.html"><img class="index_icon" src="./images/google-drive-image.png" >WORKS</a>
+		</div>
+		
+		<div id="contact_me" class="index_contener" >
+		<a href="./contact_me.html"><img class="index_icon" src="./images/black-back-closed-envelope-shape.png" >CONTACT ME</a>
+		</div>
+	</div>  
+
+	<div id="footer" class="footer">-- Last update: 2017.4 --</div>
+
+
+</body>
+</html>
