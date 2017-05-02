@@ -81,6 +81,10 @@ a:hover{
 	opacity: 1.0;
 }
 
+a.img{
+	opacity: 1.0;
+}
+
 div.index_title{
 	position: absolute;
 	top: 20%;
