@@ -1,2 +1,2 @@
-chenguangxi.github.com
+chenguangxi.space
 
